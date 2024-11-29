@@ -4,10 +4,13 @@
     <title>Document</title>
 </head>
 <body>
- <h1>this is my header</h1>  
- <script>
-    prompt("whats your name");
-
- </script>
+    <h1>
+        <script>
+            var name = prompt("enter your name");
+            alert("Hello"+ name)
+            document.write("<h1>" + 'hello '+ [name] +"</h1>");
+            
+        </script>
+    </h1>
 </body>
 </html>
